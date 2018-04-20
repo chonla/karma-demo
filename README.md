@@ -14,3 +14,9 @@ npm install --save-dev jasmine karma karma-chrome-launcher karma-cli karma-jasmi
 ```
 
 P.S. You can change `karma-chrome-launcher` to other browser luncher you want.
+
+## With jQuery
+
+```
+npm install --save-dev jasmine-jquery
+```
