@@ -3,6 +3,8 @@ module.exports = function (config) {
         basePath: '',
         frameworks: ['jasmine'],
         files: [
+            'src/**/jquery.min.js',
+            'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
             'src/**/*.js',
             'spec/**/*_spec.js'
         ],
