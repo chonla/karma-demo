@@ -1,0 +1,18 @@
+{
+  "name": "karma-demo",
+  "version": "1.0.0",
+  "description": "Demo usage of karma + jasmine and legacy code",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma-cli/bin/karma start --single-run"
+  },
+  "author": "Chonlasith Jucksriporn",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1"
+  }
+}
